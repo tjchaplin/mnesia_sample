@@ -1,0 +1,12 @@
+{application, mnesia_sample,
+ [
+  {description, "A sample mnesia application"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { mnesia_sample_app, []}},
+  {env, []}
+ ]}.
